@@ -4,9 +4,9 @@
 
 ## Preview
 
-[![Resume Preview](https://startbootstrap.com/assets/img/screenshots/themes/resume.png)](https://blackrockdigital.github.io/startbootstrap-resume/)
+![image](https://user-images.githubusercontent.com/52814897/62684269-48c04200-b9fb-11e9-8b04-22919c683f0e.png)
 
-**[View Live Preview](https://blackrockdigital.github.io/startbootstrap-resume/)**
+**[View Live Preview](https://edugieun.github.io/)**
 
 ## Status
 
