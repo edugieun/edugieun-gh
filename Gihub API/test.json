@@ -1,0 +1,166 @@
+[
+	{
+		"prob_num": "5643",
+		"prob_source": "swea",
+		"prob_name": "키 순서",
+		"prob_diff": "D4",
+		"prob_category": [
+			"Adj",
+			"BFS"
+		]
+	},
+	{
+		"prob_num": "0000",
+		"prob_source": "swea",
+		"prob_name": "Bomber1",
+		"prob_diff": "D3",
+		"prob_category": [
+			"Matrix"
+		]
+	},
+	{
+		"prob_num": "1238",
+		"prob_source": "swea",
+		"prob_name": "contact",
+		"prob_diff": "D4",
+		"prob_category": [
+			"BFS"
+		]
+	},
+	{
+		"prob_num": "14501",
+		"prob_source": "boj",
+		"prob_name": "퇴사",
+		"prob_diff": "D4",
+		"prob_category": [
+			"Backtracking"
+		]
+	},
+	{
+		"prob_num": "1247",
+		"prob_source": "boj",
+		"prob_name": "경로",
+		"prob_diff": "D5",
+		"prob_category": [
+			"Brute",
+			"DFS"
+		]
+	},
+	{
+		"prob_num": "1868",
+		"prob_source": "swea",
+		"prob_name": "파핑파핑 지뢰찾기",
+		"prob_diff": "D4",
+		"prob_category": [
+			"DFS"
+		]
+	},
+	{
+		"prob_num": "3234",
+		"prob_source": "swea",
+		"prob_name": "준환이의 양팔저울",
+		"prob_diff": "D4",
+		"prob_category": [
+			"DP"
+		]
+	},
+	{
+		"prob_num": "5204",
+		"prob_source": "swea",
+		"prob_name": "병합 정렬",
+		"prob_diff": "D3",
+		"prob_category": [
+			"DivCon"
+		]
+	},
+	{
+		"prob_num": "5247",
+		"prob_source": "swea",
+		"prob_name": "연산",
+		"prob_diff": "D4",
+		"prob_category": [
+			"Graph"
+		]
+	},
+	{
+		"prob_num": "5201",
+		"prob_source": "swea",
+		"prob_name": "컨테이너 운반",
+		"prob_diff": "D3",
+		"prob_category": [
+			"Greedy"
+		]
+	},
+	{
+		"prob_num": "1240",
+		"prob_source": "swea",
+		"prob_name": "단순 2진 암호코드",
+		"prob_diff": "D3",
+		"prob_category": [
+			"Indexing"
+		]
+	},
+	{
+		"prob_num": "1258",
+		"prob_source": "swea",
+		"prob_name": "행렬찾기",
+		"prob_diff": "D3",
+		"prob_category": [
+			"Linked"
+		]
+	},
+	{
+		"prob_num": "5097",
+		"prob_source": "swea",
+		"prob_name": "회전",
+		"prob_diff": "D2",
+		"prob_category": [
+			"Queue"
+		]
+	},
+	{
+		"prob_num": "1244",
+		"prob_source": "swea",
+		"prob_name": "최대 상금",
+		"prob_diff": "D3",
+		"prob_category": [
+			"Recursion"
+		]
+	},
+	{
+		"prob_num": "17143",
+		"prob_source": "boj",
+		"prob_name": "낚시왕",
+		"prob_diff": "D4",
+		"prob_category": [
+			"Simulation"
+		]
+	},
+	{
+		"prob_num": "1210",
+		"prob_source": "swea",
+		"prob_name": "ladder",
+		"prob_diff": "D4",
+		"prob_category": [
+			"Stack"
+		]
+	},
+	{
+		"prob_num": "2383",
+		"prob_source": "swea",
+		"prob_name": "점심 식사시간",
+		"prob_diff": "모의",
+		"prob_category": [
+			"Subset"
+		]
+	},
+	{
+		"prob_num": "1232",
+		"prob_source": "swea",
+		"prob_name": "사칙연산",
+		"prob_diff": "D4",
+		"prob_category": [
+			"Tree"
+		]
+	}
+]
