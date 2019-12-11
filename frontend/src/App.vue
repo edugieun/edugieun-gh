@@ -1,9 +1,10 @@
 <template>
   <div id="app">
     <div id="nav">
-      <router-link to="/">Index | </router-link>
+      <router-link to="/">Home</router-link> |
       <router-link to="/algorithm">Algorithm</router-link>
     </div>
+    <router-view/>
   </div>
 </template>
 <script>

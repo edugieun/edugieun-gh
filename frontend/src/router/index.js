@@ -1,6 +1,6 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
-import Home from '../views/Index'
+import Home from '../views/Home.vue'
 import Algorithm from '../views/Algorithm'
 
 Vue.use(VueRouter)
@@ -8,7 +8,7 @@ Vue.use(VueRouter)
 const routes = [
   {
     path: '/',
-    name: 'index',
+    name: 'home',
     component: Home
   },
   {
@@ -20,6 +20,7 @@ const routes = [
 
 const router = new VueRouter({
   mode: 'history',
+  base: process.env.BASE_URL,
   routes
 })
 
