@@ -19,17 +19,13 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__fil
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/3.0/howto/deployment/checklist/
 
-<<<<<<< HEAD:Backend/gitpage/settings/base.py
 
 
 
-=======
->>>>>>> 096d9d5dfcb528a2ba7610880fe1695363de87e3:Backend/gitpage/settings.py
 # Application definition
 
 INSTALLED_APPS = [
     'api.apps.ApiConfig',
-    'drf_yasg',
     'rest_framework',
     'corsheaders',
     'django.contrib.admin',
@@ -137,8 +133,4 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/3.0/howto/static-files/
 
 STATIC_URL = '/static/'
-<<<<<<< HEAD:Backend/gitpage/settings/base.py
 STATIC_ROOT = 'static'
-=======
-
->>>>>>> 096d9d5dfcb528a2ba7610880fe1695363de87e3:Backend/gitpage/settings.py
