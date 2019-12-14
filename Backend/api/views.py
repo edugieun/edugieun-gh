@@ -1,4 +1,4 @@
-from django.shortcuts import render, get_object_or_404
+from django.shortcuts import render, get_object_or_404, redirect
 from rest_framework.decorators import api_view
 from rest_framework.response import Response
 from .models import Algorithm
@@ -13,11 +13,5 @@ def problem_list(request):
     serializer = AlgorithmSerializer(problems, many=True)
     return Response(serializer.data)
 
-
-def testpage(request):
-    return render(request, 'api/testpage.html')
-
-# comment
-# comment
-# comment
-# comment
+def api_doc(request):
+    return redirect('api/v1/swagger/')

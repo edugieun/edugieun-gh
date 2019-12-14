@@ -1,5 +1,6 @@
 import requests
 import json
+from decouple import config
 
 def prob_info(dir_name, code_url):
     global problems, pk
@@ -53,7 +54,14 @@ def prob_info(dir_name, code_url):
 
 
 algo_URL = 'https://api.github.com/repos/edugieun/Algorithm-Solving/contents/'
-type_list = requests.get(algo_URL).json()
+
+token = 'token ' + config('TOKEN')
+params = {
+    'Authorization': token
+}
+
+type_list = requests.get(algo_URL, headers=params).json()
+# print(type_list)
 # print(type_list[0]['type'])
 
 problems = []
@@ -68,11 +76,13 @@ for prob_type_obj in type_list:
         if prob_type == '풀이중':
             continue
         else:
-            prob_list = requests.get(algo_URL + prob_type).json()
+            prob_list = requests.get(algo_URL + prob_type, headers=params).json()
             for prob_dir in prob_list:
                 detail_url = 'https://api.github.com/repos/edugieun/Algorithm-Solving/contents/' + prob_dir['path']
-                file_list = requests.get(detail_url).json()
+                file_list = requests.get(detail_url, headers=params).json()
+                # print(file_list)
                 for file in file_list:
+                    # print(file['name'])
                     if '.py' in file['name']:
                         code_url = file['html_url']
                         break
@@ -80,7 +90,7 @@ for prob_type_obj in type_list:
                 prob_info(prob_dir['name'], code_url)
 
                 # test 하나씩만 담아보기
-                break
+                # break
 
-with open('test.json', 'w', encoding='utf-8') as make_files:
+with open('algorithms.json', 'w', encoding='utf-8') as make_files:
     json.dump(problems, make_files, ensure_ascii=False, indent="\t")

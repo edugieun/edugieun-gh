@@ -26,6 +26,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__fil
 
 INSTALLED_APPS = [
     'api.apps.ApiConfig',
+    'drf_yasg',
     'rest_framework',
     'corsheaders',
     'django.contrib.admin',

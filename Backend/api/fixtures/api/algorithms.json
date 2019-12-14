@@ -1,0 +1,1716 @@
+[
+	{
+		"model": "api.algorithm",
+		"pk": 1,
+		"fields": {
+			"prob_num": "5643",
+			"prob_source": "swea",
+			"prob_name": "키 순서",
+			"prob_diff": "D4",
+			"prob_category": [
+				"Adj",
+				"BFS"
+			],
+			"code_url": "https://github.com/edugieun/Algorithm-Solving/blob/master/Adjacency/5643_%ED%82%A4%20%EC%88%9C%EC%84%9C(D4,%20Adj,%20BFS)/5643_height_order.py"
+		}
+	},
+	{
+		"model": "api.algorithm",
+		"pk": 2,
+		"fields": {
+			"prob_num": "7465",
+			"prob_source": "swea",
+			"prob_name": "창용 마을 무리의 개수",
+			"prob_diff": "D4",
+			"prob_category": [
+				"Adj",
+				"BFS"
+			],
+			"code_url": "https://github.com/edugieun/Algorithm-Solving/blob/master/Adjacency/7465_%EC%B0%BD%EC%9A%A9%20%EB%A7%88%EC%9D%84%20%EB%AC%B4%EB%A6%AC%EC%9D%98%20%EA%B0%9C%EC%88%98(D4,%20Adj,%20BFS)/7465_num_group.py"
+		}
+	},
+	{
+		"model": "api.algorithm",
+		"pk": 3,
+		"fields": {
+			"prob_num": "0000",
+			"prob_source": "swea",
+			"prob_name": "Bomber1",
+			"prob_diff": "D3",
+			"prob_category": [
+				"Matrix"
+			],
+			"code_url": "https://github.com/edugieun/Algorithm-Solving/blob/master/Array/0000_Bomber1(D3,%20Matrix)/bomber1.py"
+		}
+	},
+	{
+		"model": "api.algorithm",
+		"pk": 4,
+		"fields": {
+			"prob_num": "0000",
+			"prob_source": "swea",
+			"prob_name": "Bomber2",
+			"prob_diff": "D3",
+			"prob_category": [
+				"Matrix"
+			],
+			"code_url": "https://github.com/edugieun/Algorithm-Solving/blob/master/Array/0000_Bomber2(D3,%20Matrix)/bomber2.py"
+		}
+	},
+	{
+		"model": "api.algorithm",
+		"pk": 5,
+		"fields": {
+			"prob_num": "0000",
+			"prob_source": "swea",
+			"prob_name": "Bomber3",
+			"prob_diff": "D3",
+			"prob_category": [
+				"Matrix"
+			],
+			"code_url": "https://github.com/edugieun/Algorithm-Solving/blob/master/Array/0000_Bomber3(D3,%20Matrix)/bomber3.py"
+		}
+	},
+	{
+		"model": "api.algorithm",
+		"pk": 6,
+		"fields": {
+			"prob_num": "0000",
+			"prob_source": "swea",
+			"prob_name": "Bomber4",
+			"prob_diff": "D3",
+			"prob_category": [
+				"Matrix"
+			],
+			"code_url": "https://github.com/edugieun/Algorithm-Solving/blob/master/Array/0000_Bomber4(D3,%20Matrix)/bomber4.py"
+		}
+	},
+	{
+		"model": "api.algorithm",
+		"pk": 7,
+		"fields": {
+			"prob_num": "10163",
+			"prob_source": "boj",
+			"prob_name": "색종이",
+			"prob_diff": "D3",
+			"prob_category": [
+				"Matrix"
+			],
+			"code_url": "https://github.com/edugieun/Algorithm-Solving/blob/master/Array/10163_boj_%EC%83%89%EC%A2%85%EC%9D%B4(D3,%20Matrix)/10163_boj_%EC%83%89%EC%A2%85%EC%9D%B4.py"
+		}
+	},
+	{
+		"model": "api.algorithm",
+		"pk": 8,
+		"fields": {
+			"prob_num": "10815",
+			"prob_source": "boj",
+			"prob_name": "숫자카드",
+			"prob_diff": "D2",
+			"prob_category": [
+				"List"
+			],
+			"code_url": "https://github.com/edugieun/Algorithm-Solving/blob/master/Array/10815_boj_%EC%88%AB%EC%9E%90%EC%B9%B4%EB%93%9C(D2,%20List)/num_card.py"
+		}
+	},
+	{
+		"model": "api.algorithm",
+		"pk": 9,
+		"fields": {
+			"prob_num": "1206",
+			"prob_source": "swea",
+			"prob_name": "view",
+			"prob_diff": "D3",
+			"prob_category": [
+				"Marix"
+			],
+			"code_url": "https://github.com/edugieun/Algorithm-Solving/blob/master/Array/1206_view(D3,%20Marix)/1206_view.py"
+		}
+	},
+	{
+		"model": "api.algorithm",
+		"pk": 10,
+		"fields": {
+			"prob_num": "1208",
+			"prob_source": "swea",
+			"prob_name": "Flatten",
+			"prob_diff": "D3",
+			"prob_category": [
+				"Marix"
+			],
+			"code_url": "https://github.com/edugieun/Algorithm-Solving/blob/master/Array/1208_Flatten(D3,%20Marix)/1208_flatten.py"
+		}
+	},
+	{
+		"model": "api.algorithm",
+		"pk": 11,
+		"fields": {
+			"prob_num": "1209",
+			"prob_source": "swea",
+			"prob_name": "Sum",
+			"prob_diff": "D3",
+			"prob_category": [
+				"Marix"
+			],
+			"code_url": "https://github.com/edugieun/Algorithm-Solving/blob/master/Array/1209_Sum(D3,%20Marix)/1209_sum.py"
+		}
+	},
+	{
+		"model": "api.algorithm",
+		"pk": 12,
+		"fields": {
+			"prob_num": "1215",
+			"prob_source": "swea",
+			"prob_name": "palindrome1",
+			"prob_diff": "D3",
+			"prob_category": [
+				"String"
+			],
+			"code_url": "https://github.com/edugieun/Algorithm-Solving/blob/master/Array/1215_palindrome1(D3,%20String)/1215_palindrome1.py"
+		}
+	},
+	{
+		"model": "api.algorithm",
+		"pk": 13,
+		"fields": {
+			"prob_num": "1216",
+			"prob_source": "swea",
+			"prob_name": "palindrome2",
+			"prob_diff": "D3",
+			"prob_category": [
+				"String"
+			],
+			"code_url": "https://github.com/edugieun/Algorithm-Solving/blob/master/Array/1216_palindrome2(D3,%20String)/1216_palindrome2.py"
+		}
+	},
+	{
+		"model": "api.algorithm",
+		"pk": 14,
+		"fields": {
+			"prob_num": "1221",
+			"prob_source": "swea",
+			"prob_name": "GNS",
+			"prob_diff": "D3",
+			"prob_category": [
+				"String"
+			],
+			"code_url": "https://github.com/edugieun/Algorithm-Solving/blob/master/Array/1221_GNS(D3,%20String)/1221_GNS.py"
+		}
+	},
+	{
+		"model": "api.algorithm",
+		"pk": 15,
+		"fields": {
+			"prob_num": "1244",
+			"prob_source": "boj",
+			"prob_name": "스위치 켜고 끄기",
+			"prob_diff": "D3",
+			"prob_category": [
+				"List"
+			],
+			"code_url": "https://github.com/edugieun/Algorithm-Solving/blob/master/Array/1244_boj_%EC%8A%A4%EC%9C%84%EC%B9%98%20%EC%BC%9C%EA%B3%A0%20%EB%81%84%EA%B8%B0(D3,%20List)/1244_switch_on_off.py"
+		}
+	},
+	{
+		"model": "api.algorithm",
+		"pk": 16,
+		"fields": {
+			"prob_num": "1259",
+			"prob_source": "swea",
+			"prob_name": "금속막대",
+			"prob_diff": "D5",
+			"prob_category": [
+				"List"
+			],
+			"code_url": "https://github.com/edugieun/Algorithm-Solving/blob/master/Array/1259_%EA%B8%88%EC%86%8D%EB%A7%89%EB%8C%80(D5,%20List)/1259_steel_stick.py"
+		}
+	},
+	{
+		"model": "api.algorithm",
+		"pk": 17,
+		"fields": {
+			"prob_num": "1493",
+			"prob_source": "swea",
+			"prob_name": "수의 새로운 연산",
+			"prob_diff": "D3",
+			"prob_category": [
+				"Matrix"
+			],
+			"code_url": "https://github.com/edugieun/Algorithm-Solving/blob/master/Array/1493_%EC%88%98%EC%9D%98%20%EC%83%88%EB%A1%9C%EC%9A%B4%20%EC%97%B0%EC%82%B0(D3,%20Matrix)/1493_new_cal.py"
+		}
+	},
+	{
+		"model": "api.algorithm",
+		"pk": 18,
+		"fields": {
+			"prob_num": "1946",
+			"prob_source": "swea",
+			"prob_name": "간단한압축풀기",
+			"prob_diff": "D2",
+			"prob_category": [
+				"String"
+			],
+			"code_url": "https://github.com/edugieun/Algorithm-Solving/blob/master/Array/1946_%EA%B0%84%EB%8B%A8%ED%95%9C%EC%95%95%EC%B6%95%ED%92%80%EA%B8%B0(D2,%20String)/1946_simple_unzip.py"
+		}
+	},
+	{
+		"model": "api.algorithm",
+		"pk": 19,
+		"fields": {
+			"prob_num": "1961",
+			"prob_source": "swea",
+			"prob_name": "숫자 배열 회전",
+			"prob_diff": "D2",
+			"prob_category": [
+				"Matrix"
+			],
+			"code_url": "https://github.com/edugieun/Algorithm-Solving/blob/master/Array/1961_%EC%88%AB%EC%9E%90%20%EB%B0%B0%EC%97%B4%20%ED%9A%8C%EC%A0%84(D2,%20Matrix)/1961_arr_rot.py"
+		}
+	},
+	{
+		"model": "api.algorithm",
+		"pk": 20,
+		"fields": {
+			"prob_num": "1974",
+			"prob_source": "swea",
+			"prob_name": "스도쿠 검증",
+			"prob_diff": "D2",
+			"prob_category": [
+				"Matrix"
+			],
+			"code_url": "https://github.com/edugieun/Algorithm-Solving/blob/master/Array/1974_%EC%8A%A4%EB%8F%84%EC%BF%A0%20%EA%B2%80%EC%A6%9D(D2,%20Matrix)/1974_sudoku_check.py"
+		}
+	},
+	{
+		"model": "api.algorithm",
+		"pk": 21,
+		"fields": {
+			"prob_num": "1979",
+			"prob_source": "swea",
+			"prob_name": "어디에 단어가",
+			"prob_diff": "D2",
+			"prob_category": [
+				"Matrix"
+			],
+			"code_url": "https://github.com/edugieun/Algorithm-Solving/blob/master/Array/1979_%EC%96%B4%EB%94%94%EC%97%90%20%EB%8B%A8%EC%96%B4%EA%B0%80(D2,%20Matrix)/1979_word_input.py"
+		}
+	},
+	{
+		"model": "api.algorithm",
+		"pk": 22,
+		"fields": {
+			"prob_num": "2001",
+			"prob_source": "swea",
+			"prob_name": "파리 퇴치",
+			"prob_diff": "D2",
+			"prob_category": [
+				"Matrix"
+			],
+			"code_url": "https://github.com/edugieun/Algorithm-Solving/blob/master/Array/2001_%ED%8C%8C%EB%A6%AC%20%ED%87%B4%EC%B9%98(D2,%20Matrix)/2001_fly.py"
+		}
+	},
+	{
+		"model": "api.algorithm",
+		"pk": 23,
+		"fields": {
+			"prob_num": "2005",
+			"prob_source": "swea",
+			"prob_name": "파스칼의 삼각형",
+			"prob_diff": "D2",
+			"prob_category": [
+				"List"
+			],
+			"code_url": "https://github.com/edugieun/Algorithm-Solving/blob/master/Array/2005_%ED%8C%8C%EC%8A%A4%EC%B9%BC%EC%9D%98%20%EC%82%BC%EA%B0%81%ED%98%95(D2,%20List)/2005_pascal.py"
+		}
+	},
+	{
+		"model": "api.algorithm",
+		"pk": 24,
+		"fields": {
+			"prob_num": "2007",
+			"prob_source": "swea",
+			"prob_name": "패턴마디의길이",
+			"prob_diff": "D2",
+			"prob_category": [
+				"String"
+			],
+			"code_url": "https://github.com/edugieun/Algorithm-Solving/blob/master/Array/2007_%ED%8C%A8%ED%84%B4%EB%A7%88%EB%94%94%EC%9D%98%EA%B8%B8%EC%9D%B4(D2,%20String)/2007_pattern_length.py"
+		}
+	},
+	{
+		"model": "api.algorithm",
+		"pk": 25,
+		"fields": {
+			"prob_num": "2115",
+			"prob_source": "swea",
+			"prob_name": "벌꿀채취",
+			"prob_diff": "모의",
+			"prob_category": [
+				"Matrix"
+			],
+			"code_url": "https://github.com/edugieun/Algorithm-Solving/blob/master/Array/2115_%EB%B2%8C%EA%BF%80%EC%B1%84%EC%B7%A8(%EB%AA%A8%EC%9D%98,%20Matrix)/sw_honey_col.py"
+		}
+	},
+	{
+		"model": "api.algorithm",
+		"pk": 26,
+		"fields": {
+			"prob_num": "2117",
+			"prob_source": "swea",
+			"prob_name": "홈 방범 서비스",
+			"prob_diff": "모의",
+			"prob_category": [
+				"Matrix"
+			],
+			"code_url": "https://github.com/edugieun/Algorithm-Solving/blob/master/Array/2117_%ED%99%88%20%EB%B0%A9%EB%B2%94%20%EC%84%9C%EB%B9%84%EC%8A%A4(%EB%AA%A8%EC%9D%98,%20Matrix)/2117_home_secure.py"
+		}
+	},
+	{
+		"model": "api.algorithm",
+		"pk": 27,
+		"fields": {
+			"prob_num": "2578",
+			"prob_source": "boj",
+			"prob_name": "빙고",
+			"prob_diff": "D3",
+			"prob_category": [
+				"List"
+			],
+			"code_url": "https://github.com/edugieun/Algorithm-Solving/blob/master/Array/2578_boj_%EB%B9%99%EA%B3%A0(D3,%20List)/2578_bingo.py"
+		}
+	},
+	{
+		"model": "api.algorithm",
+		"pk": 28,
+		"fields": {
+			"prob_num": "2597",
+			"prob_source": "boj",
+			"prob_name": "줄자접기",
+			"prob_diff": "D3",
+			"prob_category": [
+				"List"
+			],
+			"code_url": "https://github.com/edugieun/Algorithm-Solving/blob/master/Array/2597_boj_%EC%A4%84%EC%9E%90%EC%A0%91%EA%B8%B0(D3,%20List)/2597_boj_tape.py"
+		}
+	},
+	{
+		"model": "api.algorithm",
+		"pk": 29,
+		"fields": {
+			"prob_num": "2615",
+			"prob_source": "boj",
+			"prob_name": "오목",
+			"prob_diff": "D3",
+			"prob_category": [
+				"Matrix"
+			],
+			"code_url": "https://github.com/edugieun/Algorithm-Solving/blob/master/Array/2615_boj_%EC%98%A4%EB%AA%A9(D3,%20Matrix)/2615_omok.py"
+		}
+	},
+	{
+		"model": "api.algorithm",
+		"pk": 30,
+		"fields": {
+			"prob_num": "2628",
+			"prob_source": "boj",
+			"prob_name": "종이자르기",
+			"prob_diff": "D2",
+			"prob_category": [
+				"List"
+			],
+			"code_url": "https://github.com/edugieun/Algorithm-Solving/blob/master/Array/2628_boj_%EC%A2%85%EC%9D%B4%EC%9E%90%EB%A5%B4%EA%B8%B0(D2,%20List)/2628_boj_paper_cut.py"
+		}
+	},
+	{
+		"model": "api.algorithm",
+		"pk": 31,
+		"fields": {
+			"prob_num": "2805",
+			"prob_source": "swea",
+			"prob_name": "농작물 수확하기",
+			"prob_diff": "D3",
+			"prob_category": [
+				"Matrix"
+			],
+			"code_url": "https://github.com/edugieun/Algorithm-Solving/blob/master/Array/2805_%EB%86%8D%EC%9E%91%EB%AC%BC%20%EC%88%98%ED%99%95%ED%95%98%EA%B8%B0(D3,%20Matrix)/2805_harvesting.py"
+		}
+	},
+	{
+		"model": "api.algorithm",
+		"pk": 32,
+		"fields": {
+			"prob_num": "4047",
+			"prob_source": "swea",
+			"prob_name": "영준이의 카드 카운팅",
+			"prob_diff": "D3",
+			"prob_category": [
+				"List"
+			],
+			"code_url": "https://github.com/edugieun/Algorithm-Solving/blob/master/Array/4047_%EC%98%81%EC%A4%80%EC%9D%B4%EC%9D%98%20%EC%B9%B4%EB%93%9C%20%EC%B9%B4%EC%9A%B4%ED%8C%85(D3,%20List)/4047_card_counting.py"
+		}
+	},
+	{
+		"model": "api.algorithm",
+		"pk": 33,
+		"fields": {
+			"prob_num": "4366",
+			"prob_source": "swea",
+			"prob_name": "정식이의 은행업무",
+			"prob_diff": "D4",
+			"prob_category": [
+				"List"
+			],
+			"code_url": "https://github.com/edugieun/Algorithm-Solving/blob/master/Array/4366_%EC%A0%95%EC%8B%9D%EC%9D%B4%EC%9D%98%20%EC%9D%80%ED%96%89%EC%97%85%EB%AC%B4(D4,%20List)/4366_bank.py"
+		}
+	},
+	{
+		"model": "api.algorithm",
+		"pk": 34,
+		"fields": {
+			"prob_num": "4522",
+			"prob_source": "swea",
+			"prob_name": "세상의모든팰린드룸",
+			"prob_diff": "D3",
+			"prob_category": [
+				"String"
+			],
+			"code_url": "https://github.com/edugieun/Algorithm-Solving/blob/master/Array/4522_%EC%84%B8%EC%83%81%EC%9D%98%EB%AA%A8%EB%93%A0%ED%8C%B0%EB%A6%B0%EB%93%9C%EB%A3%B8(D3,%20String)/4522_world_palin.py"
+		}
+	},
+	{
+		"model": "api.algorithm",
+		"pk": 35,
+		"fields": {
+			"prob_num": "4579",
+			"prob_source": "swea",
+			"prob_name": "세상의모든팰린드룸2",
+			"prob_diff": "D3",
+			"prob_category": [
+				"String"
+			],
+			"code_url": "https://github.com/edugieun/Algorithm-Solving/blob/master/Array/4579_%EC%84%B8%EC%83%81%EC%9D%98%EB%AA%A8%EB%93%A0%ED%8C%B0%EB%A6%B0%EB%93%9C%EB%A3%B82(D3,%20String)/4579_world_palin2.py"
+		}
+	},
+	{
+		"model": "api.algorithm",
+		"pk": 36,
+		"fields": {
+			"prob_num": "4828",
+			"prob_source": "boj",
+			"prob_name": "max",
+			"prob_diff": "D2",
+			"prob_category": [
+				"List"
+			],
+			"code_url": "https://github.com/edugieun/Algorithm-Solving/blob/master/Array/4828_min_max(D2,%20List)/4828_min_max.py"
+		}
+	},
+	{
+		"model": "api.algorithm",
+		"pk": 37,
+		"fields": {
+			"prob_num": "4831",
+			"prob_source": "swea",
+			"prob_name": "전기버스",
+			"prob_diff": "D3",
+			"prob_category": [
+				"List"
+			],
+			"code_url": "https://github.com/edugieun/Algorithm-Solving/blob/master/Array/4831_%EC%A0%84%EA%B8%B0%EB%B2%84%EC%8A%A4(D3,%20List)/elec_but.py"
+		}
+	},
+	{
+		"model": "api.algorithm",
+		"pk": 38,
+		"fields": {
+			"prob_num": "4834",
+			"prob_source": "swea",
+			"prob_name": "숫자 카드",
+			"prob_diff": "D2",
+			"prob_category": [
+				"List"
+			],
+			"code_url": "https://github.com/edugieun/Algorithm-Solving/blob/master/Array/4834_%EC%88%AB%EC%9E%90%20%EC%B9%B4%EB%93%9C(D2,%20List)/num_card.py"
+		}
+	},
+	{
+		"model": "api.algorithm",
+		"pk": 39,
+		"fields": {
+			"prob_num": "4835",
+			"prob_source": "swea",
+			"prob_name": "구간합",
+			"prob_diff": "D2",
+			"prob_category": [
+				"List"
+			],
+			"code_url": "https://github.com/edugieun/Algorithm-Solving/blob/master/Array/4835_%EA%B5%AC%EA%B0%84%ED%95%A9(D2,%20List)/4835_interval_sum.py"
+		}
+	},
+	{
+		"model": "api.algorithm",
+		"pk": 40,
+		"fields": {
+			"prob_num": "4836",
+			"prob_source": "swea",
+			"prob_name": "색칠하기",
+			"prob_diff": "D2",
+			"prob_category": [
+				"List"
+			],
+			"code_url": "https://github.com/edugieun/Algorithm-Solving/blob/master/Array/4836_%EC%83%89%EC%B9%A0%ED%95%98%EA%B8%B0(D2,%20List)/4836_painting.py"
+		}
+	},
+	{
+		"model": "api.algorithm",
+		"pk": 41,
+		"fields": {
+			"prob_num": "4837",
+			"prob_source": "swea",
+			"prob_name": "부분집합의 합",
+			"prob_diff": "D3",
+			"prob_category": [
+				"List"
+			],
+			"code_url": "https://github.com/edugieun/Algorithm-Solving/blob/master/Array/4837_%EB%B6%80%EB%B6%84%EC%A7%91%ED%95%A9%EC%9D%98%20%ED%95%A9(D3,%20List)/4837_subset_sum.py"
+		}
+	},
+	{
+		"model": "api.algorithm",
+		"pk": 42,
+		"fields": {
+			"prob_num": "4839",
+			"prob_source": "swea",
+			"prob_name": "이진탐색",
+			"prob_diff": "D2",
+			"prob_category": [
+				"List"
+			],
+			"code_url": "https://github.com/edugieun/Algorithm-Solving/blob/master/Array/4839_%EC%9D%B4%EC%A7%84%ED%83%90%EC%83%89(D2,%20List)/4839_binary_serach.py"
+		}
+	},
+	{
+		"model": "api.algorithm",
+		"pk": 43,
+		"fields": {
+			"prob_num": "4843",
+			"prob_source": "swea",
+			"prob_name": "특별한 정렬",
+			"prob_diff": "D3",
+			"prob_category": [
+				"List"
+			],
+			"code_url": "https://github.com/edugieun/Algorithm-Solving/blob/master/Array/4843_%ED%8A%B9%EB%B3%84%ED%95%9C%20%EC%A0%95%EB%A0%AC(D3,%20List)/4843_special_sort.py"
+		}
+	},
+	{
+		"model": "api.algorithm",
+		"pk": 44,
+		"fields": {
+			"prob_num": "4861",
+			"prob_source": "swea",
+			"prob_name": "회문",
+			"prob_diff": "D2",
+			"prob_category": [
+				"String"
+			],
+			"code_url": "https://github.com/edugieun/Algorithm-Solving/blob/master/Array/4861_%ED%9A%8C%EB%AC%B8(D2,%20String)/4861_palindrome0.py"
+		}
+	},
+	{
+		"model": "api.algorithm",
+		"pk": 45,
+		"fields": {
+			"prob_num": "4864",
+			"prob_source": "swea",
+			"prob_name": "문자열비교",
+			"prob_diff": "D2",
+			"prob_category": [
+				"String"
+			],
+			"code_url": "https://github.com/edugieun/Algorithm-Solving/blob/master/Array/4864_%EB%AC%B8%EC%9E%90%EC%97%B4%EB%B9%84%EA%B5%90(D2,%20String)/4864_string_compare.py"
+		}
+	},
+	{
+		"model": "api.algorithm",
+		"pk": 46,
+		"fields": {
+			"prob_num": "4865",
+			"prob_source": "swea",
+			"prob_name": "글자수",
+			"prob_diff": "D2",
+			"prob_category": [
+				"String"
+			],
+			"code_url": "https://github.com/edugieun/Algorithm-Solving/blob/master/Array/4865_%EA%B8%80%EC%9E%90%EC%88%98(D2,%20String)/4865_num_char.py"
+		}
+	},
+	{
+		"model": "api.algorithm",
+		"pk": 47,
+		"fields": {
+			"prob_num": "5185",
+			"prob_source": "swea",
+			"prob_name": "이진수",
+			"prob_diff": "D2",
+			"prob_category": [
+				"String"
+			],
+			"code_url": "https://github.com/edugieun/Algorithm-Solving/blob/master/Array/5185_%EC%9D%B4%EC%A7%84%EC%88%98(D2,%20String)/5185_binary_num.py"
+		}
+	},
+	{
+		"model": "api.algorithm",
+		"pk": 48,
+		"fields": {
+			"prob_num": "5186",
+			"prob_source": "swea",
+			"prob_name": "이진수2",
+			"prob_diff": "D2",
+			"prob_category": [
+				"String"
+			],
+			"code_url": "https://github.com/edugieun/Algorithm-Solving/blob/master/Array/5186_%EC%9D%B4%EC%A7%84%EC%88%982(D2,%20String)/5186_binary2.py"
+		}
+	},
+	{
+		"model": "api.algorithm",
+		"pk": 49,
+		"fields": {
+			"prob_num": "5356",
+			"prob_source": "swea",
+			"prob_name": "의석이의 세로로 말해요",
+			"prob_diff": "D3",
+			"prob_category": [
+				"String"
+			],
+			"code_url": "https://github.com/edugieun/Algorithm-Solving/blob/master/Array/5356_%EC%9D%98%EC%84%9D%EC%9D%B4%EC%9D%98%20%EC%84%B8%EB%A1%9C%EB%A1%9C%20%EB%A7%90%ED%95%B4%EC%9A%94(D3,%20String)/5356_vertical.py"
+		}
+	},
+	{
+		"model": "api.algorithm",
+		"pk": 50,
+		"fields": {
+			"prob_num": "5432",
+			"prob_source": "swea",
+			"prob_name": "쇠막대기 자르기",
+			"prob_diff": "D4",
+			"prob_category": [
+				"String"
+			],
+			"code_url": "https://github.com/edugieun/Algorithm-Solving/blob/master/Array/5432_%EC%87%A0%EB%A7%89%EB%8C%80%EA%B8%B0%20%EC%9E%90%EB%A5%B4%EA%B8%B0(D4,%20String)/5432_cuting_stick.py"
+		}
+	},
+	{
+		"model": "api.algorithm",
+		"pk": 51,
+		"fields": {
+			"prob_num": "5789",
+			"prob_source": "swea",
+			"prob_name": "현주의상자바꾸기",
+			"prob_diff": "D3",
+			"prob_category": [
+				"List"
+			],
+			"code_url": "https://github.com/edugieun/Algorithm-Solving/blob/master/Array/5789_%ED%98%84%EC%A3%BC%EC%9D%98%EC%83%81%EC%9E%90%EB%B0%94%EA%BE%B8%EA%B8%B0(D3,%20List)/5789_box_change.py"
+		}
+	},
+	{
+		"model": "api.algorithm",
+		"pk": 52,
+		"fields": {
+			"prob_num": "6109",
+			"prob_source": "swea",
+			"prob_name": "추억의 2048게임",
+			"prob_diff": "D4",
+			"prob_category": [
+				"Matrix"
+			],
+			"code_url": "https://github.com/edugieun/Algorithm-Solving/blob/master/Array/6109_%EC%B6%94%EC%96%B5%EC%9D%98%202048%EA%B2%8C%EC%9E%84(D4,%20Matrix)/6109_game2048.py"
+		}
+	},
+	{
+		"model": "api.algorithm",
+		"pk": 53,
+		"fields": {
+			"prob_num": "6190",
+			"prob_source": "swea",
+			"prob_name": "정곤이의 단조 증가하는 수",
+			"prob_diff": "D3",
+			"prob_category": [
+				"List"
+			],
+			"code_url": "https://github.com/edugieun/Algorithm-Solving/blob/master/Array/6190_%EC%A0%95%EA%B3%A4%EC%9D%B4%EC%9D%98%20%EB%8B%A8%EC%A1%B0%20%EC%A6%9D%EA%B0%80%ED%95%98%EB%8A%94%20%EC%88%98(D3,%20List)/6190_monotonic.py"
+		}
+	},
+	{
+		"model": "api.algorithm",
+		"pk": 54,
+		"fields": {
+			"prob_num": "1238",
+			"prob_source": "swea",
+			"prob_name": "contact",
+			"prob_diff": "D4",
+			"prob_category": [
+				"BFS"
+			],
+			"code_url": "https://github.com/edugieun/Algorithm-Solving/blob/master/BFS/1238_contact(D4,%20BFS)/1238_contact.py"
+		}
+	},
+	{
+		"model": "api.algorithm",
+		"pk": 55,
+		"fields": {
+			"prob_num": "1953",
+			"prob_source": "swea",
+			"prob_name": "탈주범 검거",
+			"prob_diff": "모의",
+			"prob_category": [
+				"BFS",
+				"Indexing"
+			],
+			"code_url": "https://github.com/edugieun/Algorithm-Solving/blob/master/BFS/1953_%ED%83%88%EC%A3%BC%EB%B2%94%20%EA%B2%80%EA%B1%B0(%EB%AA%A8%EC%9D%98,%20BFS,%20Indexing)/1953_arrest.py"
+		}
+	},
+	{
+		"model": "api.algorithm",
+		"pk": 56,
+		"fields": {
+			"prob_num": "5102",
+			"prob_source": "swea",
+			"prob_name": "노드의거리",
+			"prob_diff": "D2",
+			"prob_category": [
+				"BFS"
+			],
+			"code_url": "https://github.com/edugieun/Algorithm-Solving/blob/master/BFS/5102_%EB%85%B8%EB%93%9C%EC%9D%98%EA%B1%B0%EB%A6%AC(D2,%20BFS)/5102_node_distance.py"
+		}
+	},
+	{
+		"model": "api.algorithm",
+		"pk": 57,
+		"fields": {
+			"prob_num": "5656",
+			"prob_source": "swea",
+			"prob_name": "벽돌 깨기",
+			"prob_diff": "모의",
+			"prob_category": [
+				"BFS"
+			],
+			"code_url": "https://github.com/edugieun/Algorithm-Solving/blob/master/BFS/5656_%EB%B2%BD%EB%8F%8C%20%EA%B9%A8%EA%B8%B0(%EB%AA%A8%EC%9D%98,%20BFS)/5656_brick_break.py"
+		}
+	},
+	{
+		"model": "api.algorithm",
+		"pk": 58,
+		"fields": {
+			"prob_num": "14501",
+			"prob_source": "boj",
+			"prob_name": "퇴사",
+			"prob_diff": "D4",
+			"prob_category": [
+				"Backtracking"
+			],
+			"code_url": "https://github.com/edugieun/Algorithm-Solving/blob/master/Backtraking/14501_boj_%ED%87%B4%EC%82%AC(D4,%20Backtracking)/14501_boj_quit.py"
+		}
+	},
+	{
+		"model": "api.algorithm",
+		"pk": 59,
+		"fields": {
+			"prob_num": "1486",
+			"prob_source": "swea",
+			"prob_name": "장훈이의 높은 선반",
+			"prob_diff": "D4",
+			"prob_category": [
+				"Backtracking"
+			],
+			"code_url": "https://github.com/edugieun/Algorithm-Solving/blob/master/Backtraking/1486_%EC%9E%A5%ED%9B%88%EC%9D%B4%EC%9D%98%20%EB%86%92%EC%9D%80%20%EC%84%A0%EB%B0%98(D4,%20Backtracking)/1486_high_shelf_re.py"
+		}
+	},
+	{
+		"model": "api.algorithm",
+		"pk": 60,
+		"fields": {
+			"prob_num": "5208",
+			"prob_source": "swea",
+			"prob_name": "전기버스2",
+			"prob_diff": "D3",
+			"prob_category": [
+				"Backtracking"
+			],
+			"code_url": "https://github.com/edugieun/Algorithm-Solving/blob/master/Backtraking/5208_%EC%A0%84%EA%B8%B0%EB%B2%84%EC%8A%A42(D3,%20Backtracking)/5208_elecbus2.py"
+		}
+	},
+	{
+		"model": "api.algorithm",
+		"pk": 61,
+		"fields": {
+			"prob_num": "5209",
+			"prob_source": "swea",
+			"prob_name": "최소 생산 비용",
+			"prob_diff": "D3",
+			"prob_category": [
+				"Backtracking"
+			],
+			"code_url": "https://github.com/edugieun/Algorithm-Solving/blob/master/Backtraking/5209_%EC%B5%9C%EC%86%8C%20%EC%83%9D%EC%82%B0%20%EB%B9%84%EC%9A%A9(D3,%20Backtracking)/5209_min_cost.py"
+		}
+	},
+	{
+		"model": "api.algorithm",
+		"pk": 62,
+		"fields": {
+			"prob_num": "1247",
+			"prob_source": "boj",
+			"prob_name": "경로",
+			"prob_diff": "D5",
+			"prob_category": [
+				"Brute",
+				"DFS"
+			],
+			"code_url": "https://github.com/edugieun/Algorithm-Solving/blob/master/BruteForce/1247_%EC%B5%9C%EC%A0%81_%EA%B2%BD%EB%A1%9C(D5,%20Brute,%20DFS)/1247_opt_route.py"
+		}
+	},
+	{
+		"model": "api.algorithm",
+		"pk": 63,
+		"fields": {
+			"prob_num": "1861",
+			"prob_source": "swea",
+			"prob_name": "정사각형 방",
+			"prob_diff": "D4",
+			"prob_category": [
+				"Brute"
+			],
+			"code_url": "https://github.com/edugieun/Algorithm-Solving/blob/master/BruteForce/1861_%EC%A0%95%EC%82%AC%EA%B0%81%ED%98%95%20%EB%B0%A9(D4,%20Brute)/1861_square_room.py"
+		}
+	},
+	{
+		"model": "api.algorithm",
+		"pk": 64,
+		"fields": {
+			"prob_num": "1865",
+			"prob_source": "swea",
+			"prob_name": "동철이의 일 분배",
+			"prob_diff": "D4",
+			"prob_category": [
+				"Brute"
+			],
+			"code_url": "https://github.com/edugieun/Algorithm-Solving/blob/master/BruteForce/1865_%EB%8F%99%EC%B2%A0%EC%9D%B4%EC%9D%98%20%EC%9D%BC%20%EB%B6%84%EB%B0%B0(D4,%20Brute)/1865_work_distribution.py"
+		}
+	},
+	{
+		"model": "api.algorithm",
+		"pk": 65,
+		"fields": {
+			"prob_num": "5188",
+			"prob_source": "swea",
+			"prob_name": "최소합",
+			"prob_diff": "D3",
+			"prob_category": [
+				"Brute"
+			],
+			"code_url": "https://github.com/edugieun/Algorithm-Solving/blob/master/BruteForce/5188_%EC%B5%9C%EC%86%8C%ED%95%A9(D3,%20Brute)/5188_min_sum.py"
+		}
+	},
+	{
+		"model": "api.algorithm",
+		"pk": 66,
+		"fields": {
+			"prob_num": "5189",
+			"prob_source": "swea",
+			"prob_name": "전자카트",
+			"prob_diff": "D3",
+			"prob_category": [
+				"Brute"
+			],
+			"code_url": "https://github.com/edugieun/Algorithm-Solving/blob/master/BruteForce/5189_%EC%A0%84%EC%9E%90%EC%B9%B4%ED%8A%B8(D3,%20Brute)/5189_e_cart.py"
+		}
+	},
+	{
+		"model": "api.algorithm",
+		"pk": 67,
+		"fields": {
+			"prob_num": "1868",
+			"prob_source": "swea",
+			"prob_name": "파핑파핑 지뢰찾기",
+			"prob_diff": "D4",
+			"prob_category": [
+				"DFS"
+			],
+			"code_url": "https://github.com/edugieun/Algorithm-Solving/blob/master/DFS/1868_%ED%8C%8C%ED%95%91%ED%8C%8C%ED%95%91%20%EC%A7%80%EB%A2%B0%EC%B0%BE%EA%B8%B0(D4,%20DFS)/1868_minesweeper.py"
+		}
+	},
+	{
+		"model": "api.algorithm",
+		"pk": 68,
+		"fields": {
+			"prob_num": "1949",
+			"prob_source": "swea",
+			"prob_name": "등산로 조성",
+			"prob_diff": "모의",
+			"prob_category": [
+				"DFS",
+				"Brute"
+			],
+			"code_url": "https://github.com/edugieun/Algorithm-Solving/blob/master/DFS/1949_%EB%93%B1%EC%82%B0%EB%A1%9C%20%EC%A1%B0%EC%84%B1(%EB%AA%A8%EC%9D%98,%20DFS,%20Brute)/1949_hiking_trail.py"
+		}
+	},
+	{
+		"model": "api.algorithm",
+		"pk": 69,
+		"fields": {
+			"prob_num": "2105",
+			"prob_source": "swea",
+			"prob_name": "디저트 카페",
+			"prob_diff": "모의",
+			"prob_category": [
+				"DFS"
+			],
+			"code_url": "https://github.com/edugieun/Algorithm-Solving/blob/master/DFS/2105_%EB%94%94%EC%A0%80%ED%8A%B8%20%EC%B9%B4%ED%8E%98(%EB%AA%A8%EC%9D%98,%20DFS)/2105_dessert_cafe.py"
+		}
+	},
+	{
+		"model": "api.algorithm",
+		"pk": 70,
+		"fields": {
+			"prob_num": "2819",
+			"prob_source": "boj",
+			"prob_name": "숫자_이어_붙이기",
+			"prob_diff": "D4",
+			"prob_category": [
+				"DFS"
+			],
+			"code_url": "https://github.com/edugieun/Algorithm-Solving/blob/master/DFS/2819_%EA%B2%A9%EC%9E%90%ED%8C%90%EC%9D%98_%EC%88%AB%EC%9E%90_%EC%9D%B4%EC%96%B4_%EB%B6%99%EC%9D%B4%EA%B8%B0(D4,%20DFS)/2819_num_paste.py"
+		}
+	},
+	{
+		"model": "api.algorithm",
+		"pk": 71,
+		"fields": {
+			"prob_num": "4013",
+			"prob_source": "swea",
+			"prob_name": "특이한 자석",
+			"prob_diff": "모의",
+			"prob_category": [
+				"DFS"
+			],
+			"code_url": "https://github.com/edugieun/Algorithm-Solving/blob/master/DFS/4013_%ED%8A%B9%EC%9D%B4%ED%95%9C%20%EC%9E%90%EC%84%9D(%EB%AA%A8%EC%9D%98,%20DFS)/4013_unordinary_magnet.py"
+		}
+	},
+	{
+		"model": "api.algorithm",
+		"pk": 72,
+		"fields": {
+			"prob_num": "5105",
+			"prob_source": "swea",
+			"prob_name": "미로의거리",
+			"prob_diff": "D3",
+			"prob_category": [
+				"DFS"
+			],
+			"code_url": "https://github.com/edugieun/Algorithm-Solving/blob/master/DFS/5105_%EB%AF%B8%EB%A1%9C%EC%9D%98%EA%B1%B0%EB%A6%AC(D3,%20DFS)/5105_maze_distance.py"
+		}
+	},
+	{
+		"model": "api.algorithm",
+		"pk": 73,
+		"fields": {
+			"prob_num": "3234",
+			"prob_source": "swea",
+			"prob_name": "준환이의 양팔저울",
+			"prob_diff": "D4",
+			"prob_category": [
+				"DP"
+			],
+			"code_url": "https://github.com/edugieun/Algorithm-Solving/blob/master/DP/3234_%EC%A4%80%ED%99%98%EC%9D%B4%EC%9D%98%20%EC%96%91%ED%8C%94%EC%A0%80%EC%9A%B8(D4,%20DP)/3234_balance.py"
+		}
+	},
+	{
+		"model": "api.algorithm",
+		"pk": 74,
+		"fields": {
+			"prob_num": "3752",
+			"prob_source": "boj",
+			"prob_name": "시험_점수",
+			"prob_diff": "D4",
+			"prob_category": [
+				"DP"
+			],
+			"code_url": "https://github.com/edugieun/Algorithm-Solving/blob/master/DP/3752_%EA%B0%80%EB%8A%A5%ED%95%9C_%EC%8B%9C%ED%97%98_%EC%A0%90%EC%88%98(D4,%20DP)/3752_exam_score.py"
+		}
+	},
+	{
+		"model": "api.algorithm",
+		"pk": 75,
+		"fields": {
+			"prob_num": "4408",
+			"prob_source": "swea",
+			"prob_name": "자기 방으로 돌아가기",
+			"prob_diff": "D4",
+			"prob_category": [
+				"DP"
+			],
+			"code_url": "https://github.com/edugieun/Algorithm-Solving/blob/master/DP/4408_%EC%9E%90%EA%B8%B0%20%EB%B0%A9%EC%9C%BC%EB%A1%9C%20%EB%8F%8C%EC%95%84%EA%B0%80%EA%B8%B0(D4,%20DP)/4408_comeback_room.py"
+		}
+	},
+	{
+		"model": "api.algorithm",
+		"pk": 76,
+		"fields": {
+			"prob_num": "5204",
+			"prob_source": "swea",
+			"prob_name": "병합 정렬",
+			"prob_diff": "D3",
+			"prob_category": [
+				"DivCon"
+			],
+			"code_url": "https://github.com/edugieun/Algorithm-Solving/blob/master/DivCon/5204_%EB%B3%91%ED%95%A9%20%EC%A0%95%EB%A0%AC(D3,%20DivCon)/5204_merge_sort.py"
+		}
+	},
+	{
+		"model": "api.algorithm",
+		"pk": 77,
+		"fields": {
+			"prob_num": "5205",
+			"prob_source": "swea",
+			"prob_name": "퀵 정렬",
+			"prob_diff": "D3",
+			"prob_category": [
+				"DivCon"
+			],
+			"code_url": "https://github.com/edugieun/Algorithm-Solving/blob/master/DivCon/5205_%ED%80%B5%20%EC%A0%95%EB%A0%AC(D3,%20DivCon)/5202_quick_sort.py"
+		}
+	},
+	{
+		"model": "api.algorithm",
+		"pk": 78,
+		"fields": {
+			"prob_num": "5207",
+			"prob_source": "swea",
+			"prob_name": "이진 탐색",
+			"prob_diff": "D3",
+			"prob_category": [
+				"DivCon"
+			],
+			"code_url": "https://github.com/edugieun/Algorithm-Solving/blob/master/DivCon/5207_%EC%9D%B4%EC%A7%84%20%ED%83%90%EC%83%89(D3,%20DivCon)/5207_binary_search.py"
+		}
+	},
+	{
+		"model": "api.algorithm",
+		"pk": 79,
+		"fields": {
+			"prob_num": "5247",
+			"prob_source": "swea",
+			"prob_name": "연산",
+			"prob_diff": "D4",
+			"prob_category": [
+				"Graph"
+			],
+			"code_url": "https://github.com/edugieun/Algorithm-Solving/blob/master/Graph/5247_%EC%97%B0%EC%82%B0(D4,%20Graph)/5247_cal.py"
+		}
+	},
+	{
+		"model": "api.algorithm",
+		"pk": 80,
+		"fields": {
+			"prob_num": "5248",
+			"prob_source": "swea",
+			"prob_name": "그룹 나누기",
+			"prob_diff": "D3",
+			"prob_category": [
+				"Graph"
+			],
+			"code_url": "https://github.com/edugieun/Algorithm-Solving/blob/master/Graph/5248_%EA%B7%B8%EB%A3%B9%20%EB%82%98%EB%88%84%EA%B8%B0(D3,%20Graph)/5248_group_div.py"
+		}
+	},
+	{
+		"model": "api.algorithm",
+		"pk": 81,
+		"fields": {
+			"prob_num": "5249",
+			"prob_source": "swea",
+			"prob_name": "최소 신장 트리",
+			"prob_diff": "D4",
+			"prob_category": [
+				"Graph"
+			],
+			"code_url": "https://github.com/edugieun/Algorithm-Solving/blob/master/Graph/5249_%EC%B5%9C%EC%86%8C%20%EC%8B%A0%EC%9E%A5%20%ED%8A%B8%EB%A6%AC(D4,%20Graph)/5249_MST.py"
+		}
+	},
+	{
+		"model": "api.algorithm",
+		"pk": 82,
+		"fields": {
+			"prob_num": "5250",
+			"prob_source": "swea",
+			"prob_name": "최소 비용",
+			"prob_diff": "D3",
+			"prob_category": [
+				"Graph"
+			],
+			"code_url": "https://github.com/edugieun/Algorithm-Solving/blob/master/Graph/5250_%EC%B5%9C%EC%86%8C%20%EB%B9%84%EC%9A%A9(D3,%20Graph)/5250_min_cost.py"
+		}
+	},
+	{
+		"model": "api.algorithm",
+		"pk": 83,
+		"fields": {
+			"prob_num": "5521",
+			"prob_source": "swea",
+			"prob_name": "상원이의 생일파티",
+			"prob_diff": "D5",
+			"prob_category": [
+				"Graph"
+			],
+			"code_url": "https://github.com/edugieun/Algorithm-Solving/blob/master/Graph/5521_%EC%83%81%EC%9B%90%EC%9D%B4%EC%9D%98%20%EC%83%9D%EC%9D%BC%ED%8C%8C%ED%8B%B0(D5,%20Graph)/5521_sangwon_birth.py"
+		}
+	},
+	{
+		"model": "api.algorithm",
+		"pk": 84,
+		"fields": {
+			"prob_num": "7465",
+			"prob_source": "swea",
+			"prob_name": "창용 마을 무리의 개수",
+			"prob_diff": "D4",
+			"prob_category": [
+				"Graph"
+			],
+			"code_url": "https://github.com/edugieun/Algorithm-Solving/blob/master/Graph/7465_%EC%B0%BD%EC%9A%A9%20%EB%A7%88%EC%9D%84%20%EB%AC%B4%EB%A6%AC%EC%9D%98%20%EA%B0%9C%EC%88%98(D4,%20Graph)/disjoint_sets.py"
+		}
+	},
+	{
+		"model": "api.algorithm",
+		"pk": 85,
+		"fields": {
+			"prob_num": "5201",
+			"prob_source": "swea",
+			"prob_name": "컨테이너 운반",
+			"prob_diff": "D3",
+			"prob_category": [
+				"Greedy"
+			],
+			"code_url": "https://github.com/edugieun/Algorithm-Solving/blob/master/Greedy/5201_%EC%BB%A8%ED%85%8C%EC%9D%B4%EB%84%88%20%EC%9A%B4%EB%B0%98(D3,%20Greedy)/container.py"
+		}
+	},
+	{
+		"model": "api.algorithm",
+		"pk": 86,
+		"fields": {
+			"prob_num": "5202",
+			"prob_source": "swea",
+			"prob_name": "화물 도크",
+			"prob_diff": "D3",
+			"prob_category": [
+				"Greedy"
+			],
+			"code_url": "https://github.com/edugieun/Algorithm-Solving/blob/master/Greedy/5202_%ED%99%94%EB%AC%BC%20%EB%8F%84%ED%81%AC(D3,%20Greedy)/5202_dock.py"
+		}
+	},
+	{
+		"model": "api.algorithm",
+		"pk": 87,
+		"fields": {
+			"prob_num": "5203",
+			"prob_source": "swea",
+			"prob_name": "베이비진 게임",
+			"prob_diff": "D3",
+			"prob_category": [
+				"Greedy"
+			],
+			"code_url": "https://github.com/edugieun/Algorithm-Solving/blob/master/Greedy/5203_%EB%B2%A0%EC%9D%B4%EB%B9%84%EC%A7%84%20%EA%B2%8C%EC%9E%84(D3,%20Greedy)/5203_baby_gin.py"
+		}
+	},
+	{
+		"model": "api.algorithm",
+		"pk": 88,
+		"fields": {
+			"prob_num": "1240",
+			"prob_source": "swea",
+			"prob_name": "단순 2진 암호코드",
+			"prob_diff": "D3",
+			"prob_category": [
+				"Indexing"
+			],
+			"code_url": "https://github.com/edugieun/Algorithm-Solving/blob/master/Indexing/1240_%EB%8B%A8%EC%88%9C%202%EC%A7%84%20%EC%95%94%ED%98%B8%EC%BD%94%EB%93%9C(D3,%20Indexing)/1240_simple_binary.py"
+		}
+	},
+	{
+		"model": "api.algorithm",
+		"pk": 89,
+		"fields": {
+			"prob_num": "1242",
+			"prob_source": "swea",
+			"prob_name": "암호코드 스캔",
+			"prob_diff": "D3",
+			"prob_category": [
+				"Indexing"
+			],
+			"code_url": "https://github.com/edugieun/Algorithm-Solving/blob/master/Indexing/1242_%EC%95%94%ED%98%B8%EC%BD%94%EB%93%9C%20%EC%8A%A4%EC%BA%94(D3,%20Indexing)/1242_secret_code_scan.py"
+		}
+	},
+	{
+		"model": "api.algorithm",
+		"pk": 90,
+		"fields": {
+			"prob_num": "1258",
+			"prob_source": "swea",
+			"prob_name": "행렬찾기",
+			"prob_diff": "D3",
+			"prob_category": [
+				"Linked"
+			],
+			"code_url": "https://github.com/edugieun/Algorithm-Solving/blob/master/Linked_List/1258_%ED%96%89%EB%A0%AC%EC%B0%BE%EA%B8%B0(D3,%20Linked)/1258_array_finding.py"
+		}
+	},
+	{
+		"model": "api.algorithm",
+		"pk": 91,
+		"fields": {
+			"prob_num": "5108",
+			"prob_source": "swea",
+			"prob_name": "숫자 추가",
+			"prob_diff": "D3",
+			"prob_category": [
+				"Linked"
+			],
+			"code_url": "https://github.com/edugieun/Algorithm-Solving/blob/master/Linked_List/5108_%EC%88%AB%EC%9E%90%20%EC%B6%94%EA%B0%80(D3,%20Linked)/5108_num_add.py"
+		}
+	},
+	{
+		"model": "api.algorithm",
+		"pk": 92,
+		"fields": {
+			"prob_num": "5110",
+			"prob_source": "swea",
+			"prob_name": "수열 합치기",
+			"prob_diff": "D3",
+			"prob_category": [
+				"Linked"
+			],
+			"code_url": "https://github.com/edugieun/Algorithm-Solving/blob/master/Linked_List/5110_%EC%88%98%EC%97%B4%20%ED%95%A9%EC%B9%98%EA%B8%B0(D3,%20Linked)/5110_num_arr_merge.py"
+		}
+	},
+	{
+		"model": "api.algorithm",
+		"pk": 93,
+		"fields": {
+			"prob_num": "5120",
+			"prob_source": "swea",
+			"prob_name": "암호",
+			"prob_diff": "D4",
+			"prob_category": [
+				"Linked"
+			],
+			"code_url": "https://github.com/edugieun/Algorithm-Solving/blob/master/Linked_List/5120_%EC%95%94%ED%98%B8(D4,%20Linked)/5120_password.py"
+		}
+	},
+	{
+		"model": "api.algorithm",
+		"pk": 94,
+		"fields": {
+			"prob_num": "5122",
+			"prob_source": "swea",
+			"prob_name": "수열 편집",
+			"prob_diff": "D4",
+			"prob_category": [
+				"Linked"
+			],
+			"code_url": "https://github.com/edugieun/Algorithm-Solving/blob/master/Linked_List/5122_%EC%88%98%EC%97%B4%20%ED%8E%B8%EC%A7%91(D4,%20Linked)/5122_arr_edit.py"
+		}
+	},
+	{
+		"model": "api.algorithm",
+		"pk": 95,
+		"fields": {
+			"prob_num": "6485",
+			"prob_source": "swea",
+			"prob_name": "삼성시의 버스 노선",
+			"prob_diff": "D3",
+			"prob_category": [
+				"Linked"
+			],
+			"code_url": "https://github.com/edugieun/Algorithm-Solving/blob/master/Linked_List/6485_%EC%82%BC%EC%84%B1%EC%8B%9C%EC%9D%98%20%EB%B2%84%EC%8A%A4%20%EB%85%B8%EC%84%A0(D3,%20Linked)/6485_samsung_bus.py"
+		}
+	},
+	{
+		"model": "api.algorithm",
+		"pk": 96,
+		"fields": {
+			"prob_num": "5097",
+			"prob_source": "swea",
+			"prob_name": "회전",
+			"prob_diff": "D2",
+			"prob_category": [
+				"Queue"
+			],
+			"code_url": "https://github.com/edugieun/Algorithm-Solving/blob/master/Queue/5097_%ED%9A%8C%EC%A0%84(D2,%20Queue)/5097_rotations.py"
+		}
+	},
+	{
+		"model": "api.algorithm",
+		"pk": 97,
+		"fields": {
+			"prob_num": "5099",
+			"prob_source": "swea",
+			"prob_name": "피자굽기",
+			"prob_diff": "D3",
+			"prob_category": [
+				"Queue"
+			],
+			"code_url": "https://github.com/edugieun/Algorithm-Solving/blob/master/Queue/5099_%ED%94%BC%EC%9E%90%EA%B5%BD%EA%B8%B0(D3,%20Queue)/5099_pizza.py"
+		}
+	},
+	{
+		"model": "api.algorithm",
+		"pk": 98,
+		"fields": {
+			"prob_num": "1244",
+			"prob_source": "swea",
+			"prob_name": "최대 상금",
+			"prob_diff": "D3",
+			"prob_category": [
+				"Recursion"
+			],
+			"code_url": "https://github.com/edugieun/Algorithm-Solving/blob/master/Recursion/1244_%EC%B5%9C%EB%8C%80%20%EC%83%81%EA%B8%88(D3,%20Recursion)/1244_max_price.py"
+		}
+	},
+	{
+		"model": "api.algorithm",
+		"pk": 99,
+		"fields": {
+			"prob_num": "2806",
+			"prob_source": "boj",
+			"prob_name": "Queen",
+			"prob_diff": "D3",
+			"prob_category": [
+				"Recursion",
+				"DFS"
+			],
+			"code_url": "https://github.com/edugieun/Algorithm-Solving/blob/master/Recursion/2806_N_Queen(D3,%20Recursion,%20DFS)/2806_N_Queen.py"
+		}
+	},
+	{
+		"model": "api.algorithm",
+		"pk": 100,
+		"fields": {
+			"prob_num": "4008",
+			"prob_source": "swea",
+			"prob_name": "숫자 만들기",
+			"prob_diff": "모의",
+			"prob_category": [
+				"Recursion"
+			],
+			"code_url": "https://github.com/edugieun/Algorithm-Solving/blob/master/Recursion/4008_%EC%88%AB%EC%9E%90%20%EB%A7%8C%EB%93%A4%EA%B8%B0(%EB%AA%A8%EC%9D%98,%20Recursion)/4008_making_numbers.py"
+		}
+	},
+	{
+		"model": "api.algorithm",
+		"pk": 101,
+		"fields": {
+			"prob_num": "4615",
+			"prob_source": "swea",
+			"prob_name": "재미있는 오셀로 게임",
+			"prob_diff": "D3",
+			"prob_category": [
+				"Recursion"
+			],
+			"code_url": "https://github.com/edugieun/Algorithm-Solving/blob/master/Recursion/4615_%EC%9E%AC%EB%AF%B8%EC%9E%88%EB%8A%94%20%EC%98%A4%EC%85%80%EB%A1%9C%20%EA%B2%8C%EC%9E%84(D3,%20Recursion)/4615_othello.py"
+		}
+	},
+	{
+		"model": "api.algorithm",
+		"pk": 102,
+		"fields": {
+			"prob_num": "17143",
+			"prob_source": "boj",
+			"prob_name": "낚시왕",
+			"prob_diff": "D4",
+			"prob_category": [
+				"Simulation"
+			],
+			"code_url": "https://github.com/edugieun/Algorithm-Solving/blob/master/Simulation/17143_boj_%EB%82%9A%EC%8B%9C%EC%99%95(D4,%20Simulation)/17143_boj_fishing.py"
+		}
+	},
+	{
+		"model": "api.algorithm",
+		"pk": 103,
+		"fields": {
+			"prob_num": "5653",
+			"prob_source": "swea",
+			"prob_name": "줄기세포배양",
+			"prob_diff": "모의",
+			"prob_category": [
+				"Simulation"
+			],
+			"code_url": "https://github.com/edugieun/Algorithm-Solving/blob/master/Simulation/5653_%EC%A4%84%EA%B8%B0%EC%84%B8%ED%8F%AC%EB%B0%B0%EC%96%91(%EB%AA%A8%EC%9D%98,%20Simulation)/5653_cell_culture.py"
+		}
+	},
+	{
+		"model": "api.algorithm",
+		"pk": 104,
+		"fields": {
+			"prob_num": "1210",
+			"prob_source": "swea",
+			"prob_name": "ladder",
+			"prob_diff": "D4",
+			"prob_category": [
+				"Stack"
+			],
+			"code_url": "https://github.com/edugieun/Algorithm-Solving/blob/master/Stack/1210_ladder(D4,%20Stack)/1210_ladder.py"
+		}
+	},
+	{
+		"model": "api.algorithm",
+		"pk": 105,
+		"fields": {
+			"prob_num": "1220",
+			"prob_source": "swea",
+			"prob_name": "Magnetic",
+			"prob_diff": "D3",
+			"prob_category": [
+				"Stack"
+			],
+			"code_url": "https://github.com/edugieun/Algorithm-Solving/blob/master/Stack/1220_Magnetic(D3,%20Stack)/1220_Magnetic.py"
+		}
+	},
+	{
+		"model": "api.algorithm",
+		"pk": 106,
+		"fields": {
+			"prob_num": "1224",
+			"prob_source": "swea",
+			"prob_name": "계산기3",
+			"prob_diff": "D4",
+			"prob_category": [
+				"Stack"
+			],
+			"code_url": "https://github.com/edugieun/Algorithm-Solving/blob/master/Stack/1224_%EA%B3%84%EC%82%B0%EA%B8%B03(D4,%20Stack)/calculator3.py"
+		}
+	},
+	{
+		"model": "api.algorithm",
+		"pk": 107,
+		"fields": {
+			"prob_num": "1267",
+			"prob_source": "swea",
+			"prob_name": "작업순서",
+			"prob_diff": "D6",
+			"prob_category": [
+				"Stack"
+			],
+			"code_url": "https://github.com/edugieun/Algorithm-Solving/blob/master/Stack/1267_%EC%9E%91%EC%97%85%EC%88%9C%EC%84%9C(D6,%20Stack)/1267_working_order.py"
+		}
+	},
+	{
+		"model": "api.algorithm",
+		"pk": 108,
+		"fields": {
+			"prob_num": "4866",
+			"prob_source": "swea",
+			"prob_name": "괄호검사",
+			"prob_diff": "D2",
+			"prob_category": [
+				"Stack"
+			],
+			"code_url": "https://github.com/edugieun/Algorithm-Solving/blob/master/Stack/4866_%EA%B4%84%ED%98%B8%EA%B2%80%EC%82%AC(D2,%20Stack)/4866_bracket_check.py"
+		}
+	},
+	{
+		"model": "api.algorithm",
+		"pk": 109,
+		"fields": {
+			"prob_num": "4869",
+			"prob_source": "swea",
+			"prob_name": "종이붙이기",
+			"prob_diff": "D2",
+			"prob_category": [
+				"Stack"
+			],
+			"code_url": "https://github.com/edugieun/Algorithm-Solving/blob/master/Stack/4869_%EC%A2%85%EC%9D%B4%EB%B6%99%EC%9D%B4%EA%B8%B0(D2,%20Stack)/4869_paper.py"
+		}
+	},
+	{
+		"model": "api.algorithm",
+		"pk": 110,
+		"fields": {
+			"prob_num": "4871",
+			"prob_source": "swea",
+			"prob_name": "그래프경로",
+			"prob_diff": "D2",
+			"prob_category": [
+				"Stack"
+			],
+			"code_url": "https://github.com/edugieun/Algorithm-Solving/blob/master/Stack/4871_%EA%B7%B8%EB%9E%98%ED%94%84%EA%B2%BD%EB%A1%9C(D2,%20Stack)/4871_graph_route.py"
+		}
+	},
+	{
+		"model": "api.algorithm",
+		"pk": 111,
+		"fields": {
+			"prob_num": "4873",
+			"prob_source": "swea",
+			"prob_name": "반복문자지우기",
+			"prob_diff": "D2",
+			"prob_category": [
+				"Stack"
+			],
+			"code_url": "https://github.com/edugieun/Algorithm-Solving/blob/master/Stack/4873_%EB%B0%98%EB%B3%B5%EB%AC%B8%EC%9E%90%EC%A7%80%EC%9A%B0%EA%B8%B0(D2,%20Stack)/tset.py"
+		}
+	},
+	{
+		"model": "api.algorithm",
+		"pk": 112,
+		"fields": {
+			"prob_num": "4874",
+			"prob_source": "swea",
+			"prob_name": "forth",
+			"prob_diff": "D2",
+			"prob_category": [
+				"Stack"
+			],
+			"code_url": "https://github.com/edugieun/Algorithm-Solving/blob/master/Stack/4874_forth(D2,%20Stack)/4874_forth.py"
+		}
+	},
+	{
+		"model": "api.algorithm",
+		"pk": 113,
+		"fields": {
+			"prob_num": "4875",
+			"prob_source": "swea",
+			"prob_name": "미로",
+			"prob_diff": "D2",
+			"prob_category": [
+				"Stack"
+			],
+			"code_url": "https://github.com/edugieun/Algorithm-Solving/blob/master/Stack/4875_%EB%AF%B8%EB%A1%9C(D2,%20Stack)/4875_maze.py"
+		}
+	},
+	{
+		"model": "api.algorithm",
+		"pk": 114,
+		"fields": {
+			"prob_num": "4880",
+			"prob_source": "swea",
+			"prob_name": "토너먼트 카드게임",
+			"prob_diff": "D2",
+			"prob_category": [
+				"Stack"
+			],
+			"code_url": "https://github.com/edugieun/Algorithm-Solving/blob/master/Stack/4880_%ED%86%A0%EB%84%88%EB%A8%BC%ED%8A%B8%20%EC%B9%B4%EB%93%9C%EA%B2%8C%EC%9E%84(D2,%20Stack)/4880_tourna_cardgame.py"
+		}
+	},
+	{
+		"model": "api.algorithm",
+		"pk": 115,
+		"fields": {
+			"prob_num": "4881",
+			"prob_source": "swea",
+			"prob_name": "배열최소합",
+			"prob_diff": "D2",
+			"prob_category": [
+				"Stack"
+			],
+			"code_url": "https://github.com/edugieun/Algorithm-Solving/blob/master/Stack/4881_%EB%B0%B0%EC%97%B4%EC%B5%9C%EC%86%8C%ED%95%A9(D2,%20Stack)/4881_arr_min_sum.py"
+		}
+	},
+	{
+		"model": "api.algorithm",
+		"pk": 116,
+		"fields": {
+			"prob_num": "2383",
+			"prob_source": "swea",
+			"prob_name": "점심 식사시간",
+			"prob_diff": "모의",
+			"prob_category": [
+				"Subset"
+			],
+			"code_url": "https://github.com/edugieun/Algorithm-Solving/blob/master/Subset/2383_%EC%A0%90%EC%8B%AC%20%EC%8B%9D%EC%82%AC%EC%8B%9C%EA%B0%84(%EB%AA%A8%EC%9D%98,%20Subset)/2383_launch.py"
+		}
+	},
+	{
+		"model": "api.algorithm",
+		"pk": 117,
+		"fields": {
+			"prob_num": "4012",
+			"prob_source": "swea",
+			"prob_name": "요리사",
+			"prob_diff": "모의",
+			"prob_category": [
+				"Subset"
+			],
+			"code_url": "https://github.com/edugieun/Algorithm-Solving/blob/master/Subset/4012_%EC%9A%94%EB%A6%AC%EC%82%AC(%EB%AA%A8%EC%9D%98,%20Subset)/4012_cook.py"
+		}
+	},
+	{
+		"model": "api.algorithm",
+		"pk": 118,
+		"fields": {
+			"prob_num": "1232",
+			"prob_source": "swea",
+			"prob_name": "사칙연산",
+			"prob_diff": "D4",
+			"prob_category": [
+				"Tree"
+			],
+			"code_url": "https://github.com/edugieun/Algorithm-Solving/blob/master/TREE/1232_%EC%82%AC%EC%B9%99%EC%97%B0%EC%82%B0(D4,%20Tree)/1232_arithmetic.py"
+		}
+	},
+	{
+		"model": "api.algorithm",
+		"pk": 119,
+		"fields": {
+			"prob_num": "5174",
+			"prob_source": "swea",
+			"prob_name": "subtree",
+			"prob_diff": "D2",
+			"prob_category": [
+				"Tree"
+			],
+			"code_url": "https://github.com/edugieun/Algorithm-Solving/blob/master/TREE/5174_subtree(D2,%20Tree)/5174_subtree.py"
+		}
+	},
+	{
+		"model": "api.algorithm",
+		"pk": 120,
+		"fields": {
+			"prob_num": "5176",
+			"prob_source": "swea",
+			"prob_name": "이진탐색",
+			"prob_diff": "D2",
+			"prob_category": [
+				"Tree"
+			],
+			"code_url": "https://github.com/edugieun/Algorithm-Solving/blob/master/TREE/5176_%EC%9D%B4%EC%A7%84%ED%83%90%EC%83%89(D2,%20Tree)/5176_bi_search.py"
+		}
+	},
+	{
+		"model": "api.algorithm",
+		"pk": 121,
+		"fields": {
+			"prob_num": "5177",
+			"prob_source": "swea",
+			"prob_name": "이진 힙",
+			"prob_diff": "D2",
+			"prob_category": [
+				"Tree"
+			],
+			"code_url": "https://github.com/edugieun/Algorithm-Solving/blob/master/TREE/5177_%EC%9D%B4%EC%A7%84%20%ED%9E%99(D2,%20Tree)/5177_bi_heap.py"
+		}
+	},
+	{
+		"model": "api.algorithm",
+		"pk": 122,
+		"fields": {
+			"prob_num": "5178",
+			"prob_source": "swea",
+			"prob_name": "노드의 합",
+			"prob_diff": "D3",
+			"prob_category": [
+				"Tree"
+			],
+			"code_url": "https://github.com/edugieun/Algorithm-Solving/blob/master/TREE/5178_%EB%85%B8%EB%93%9C%EC%9D%98%20%ED%95%A9(D3,%20Tree)/5178_node_sum.py"
+		}
+	}
+]
