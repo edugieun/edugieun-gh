@@ -13,6 +13,10 @@ def problem_list(request):
     serializer = AlgorithmSerializer(problems, many=True)
     return Response(serializer.data)
 
+
+def testpage(request):
+    return render(request, 'api/testpage.html')
+
 # comment
 # comment
 # comment
