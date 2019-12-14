@@ -12,3 +12,5 @@ def problem_list(request):
     problems = Algorithm.objects.all()
     serializer = AlgorithmSerializer(problems, many=True)
     return Response(serializer.data)
+
+# comment
