@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link crossorigin="anonymous" media="all" integrity="sha512-7mtunHqp/Bw0ND9akjJME8XCh0WPm3HAXOSeX7skL0qGAhpdfzkQvYcujYcwNPTpWKeKMFUGZGtvnEkcczFgwQ==" rel="stylesheet" href="https://github.githubassets.com/assets/frameworks-9b5314213e37056ed87b0418056c4f2c.css" />
+  
+  <link crossorigin="anonymous" media="all" integrity="sha512-72YAQLJ3wNQBTmzSw8GuhpmRbpFX+Fc7CrVI80DxyM6hItKFtd8SmRqzdqhHWxcFLVI91GmT9+jBiIxzvAvbWw==" rel="stylesheet" href="https://github.githubassets.com/assets/github-858574b4b94fdd617a9aeeb43ae58986.css" />
+</head>
+<body>
+  <table class="highlight tab-size js-file-line-container" data-tab-size="8">
+    <tr>
+    <td class="blob-num js-line-number" data-line-number="1" id="L1"></td>
+    <td class="blob-code blob-code-inner js-file-line" id="LC1"><span class="pl-k">import</span> sys</td>
+    </tr>
+    <tr>
+    <td class="blob-num js-line-number" data-line-number="2" id="L2"></td>
+    <td class="blob-code blob-code-inner js-file-line" id="LC2">sys.stdin <span class="pl-k">=</span> <span class="pl-c1">open</span>(<span class="pl-s"><span class="pl-pds">'</span>bomber1_input.txt<span class="pl-pds">'</span></span>, <span class="pl-s"><span class="pl-pds">'</span>r<span class="pl-pds">'</span></span>)</td>
+    </tr>
+    <tr>
+    <td class="blob-num js-line-number" data-line-number="3" id="L3"></td>
+    <td class="blob-code blob-code-inner js-file-line" id="LC3">
+    </td>
+    </tr>
+    <tr>
+    <td class="blob-num js-line-number" data-line-number="4" id="L4"></td>
+    <td class="blob-code blob-code-inner js-file-line" id="LC4">test_case <span class="pl-k">=</span> <span class="pl-c1">int</span>(<span class="pl-c1">input</span>())</td>
+    </tr>
+    <tr>
+    <td class="blob-num js-line-number" data-line-number="5" id="L5"></td>
+    <td class="blob-code blob-code-inner js-file-line" id="LC5">
+    </td>
+    </tr>
+    <tr>
+    <td class="blob-num js-line-number" data-line-number="6" id="L6"></td>
+    <td class="blob-code blob-code-inner js-file-line" id="LC6"><span class="pl-k">for</span> test <span class="pl-k">in</span> <span class="pl-c1">range</span>(test_case):</td>
+    </tr>
+    <tr>
+    <td class="blob-num js-line-number" data-line-number="7" id="L7"></td>
+    <td class="blob-code blob-code-inner js-file-line" id="LC7">    N <span class="pl-k">=</span> <span class="pl-c1">int</span>(<span class="pl-c1">input</span>())</td>
+    </tr>
+    <tr>
+    <td class="blob-num js-line-number" data-line-number="8" id="L8"></td>
+    <td class="blob-code blob-code-inner js-file-line" id="LC8">
+    </td>
+    </tr>
+    <tr>
+    <td class="blob-num js-line-number" data-line-number="9" id="L9"></td>
+    <td class="blob-code blob-code-inner js-file-line" id="LC9">    N_matrix <span class="pl-k">=</span> [<span class="pl-c1">list</span>(<span class="pl-c1">map</span>(<span class="pl-c1">int</span>, <span class="pl-c1">input</span>().split())) <span class="pl-k">for</span> i <span class="pl-k">in</span> <span class="pl-c1">range</span>(N)]</td>
+    </tr>
+    <tr>
+    <td class="blob-num js-line-number" data-line-number="10" id="L10"></td>
+    <td class="blob-code blob-code-inner js-file-line" id="LC10">
+    </td>
+    </tr>
+    <tr>
+    <td class="blob-num js-line-number" data-line-number="11" id="L11"></td>
+    <td class="blob-code blob-code-inner js-file-line" id="LC11">    max_sum <span class="pl-k">=</span> <span class="pl-c1">0</span></td>
+    </tr>
+    <tr>
+    <td class="blob-num js-line-number" data-line-number="12" id="L12"></td>
+    <td class="blob-code blob-code-inner js-file-line" id="LC12"> <span class="pl-k">for</span> idx, order <span class="pl-k">in</span> <span class="pl-c1">enumerate</span>(N_matrix):</td>
+    </tr>
+    <tr>
+    <td class="blob-num js-line-number" data-line-number="13" id="L13"></td>
+    <td class="blob-code blob-code-inner js-file-line" id="LC13">        order_sum <span class="pl-k">=</span> <span class="pl-c1">sum</span>(order)</td>
+    </tr>
+    <tr>
+    <td class="blob-num js-line-number" data-line-number="14" id="L14"></td>
+    <td class="blob-code blob-code-inner js-file-line" id="LC14"> <span class="pl-k">for</span> col <span class="pl-k">in</span> <span class="pl-c1">range</span>(N):</td>
+    </tr>
+    <tr>
+    <td class="blob-num js-line-number" data-line-number="15" id="L15"></td>
+    <td class="blob-code blob-code-inner js-file-line" id="LC15">            tmp_sum <span class="pl-k">=</span> <span class="pl-c1">0</span></td>
+    </tr>
+    <tr>
+    <td class="blob-num js-line-number" data-line-number="16" id="L16"></td>
+    <td class="blob-code blob-code-inner js-file-line" id="LC16"> <span class="pl-k">for</span> row <span class="pl-k">in</span> <span class="pl-c1">range</span>(N):</td>
+    </tr>
+    <tr>
+    <td class="blob-num js-line-number" data-line-number="17" id="L17"></td>
+    <td class="blob-code blob-code-inner js-file-line" id="LC17">                tmp_sum <span class="pl-k">+=</span> N_matrix[row][col]</td>
+    </tr>
+    <tr>
+    <td class="blob-num js-line-number" data-line-number="18" id="L18"></td>
+    <td class="blob-code blob-code-inner js-file-line" id="LC18">            kill <span class="pl-k">=</span> (order_sum <span class="pl-k">+</span> tmp_sum) <span class="pl-k">-</span> N_matrix[idx][col]</td>
+    </tr>
+    <tr>
+    <td class="blob-num js-line-number" data-line-number="19" id="L19"></td>
+    <td class="blob-code blob-code-inner js-file-line" id="LC19"> <span class="pl-k">if</span> max_sum <span class="pl-k">&lt;</span> kill:</td>
+    </tr>
+    <tr>
+    <td class="blob-num js-line-number" data-line-number="20" id="L20"></td>
+    <td class="blob-code blob-code-inner js-file-line" id="LC20">                max_sum <span class="pl-k">=</span> kill</td>
+    </tr>
+    <tr>
+    <td class="blob-num js-line-number" data-line-number="21" id="L21"></td>
+    <td class="blob-code blob-code-inner js-file-line" id="LC21">
+    </td>
+    </tr>
+    <tr>
+    <td class="blob-num js-line-number" data-line-number="22" id="L22"></td>
+    <td class="blob-code blob-code-inner js-file-line" id="LC22"> <span class="pl-c1">print</span>(max_sum)</td>
+    </tr>
+    </table>
+</body>
+</html>
