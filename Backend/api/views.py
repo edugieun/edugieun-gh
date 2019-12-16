@@ -8,7 +8,6 @@ import ast
 # Create your views here.
 
 import requests
-from bs4 import BeautifulSoup
 
 
 
@@ -21,13 +20,13 @@ def problem_list(request):
 def api_doc(request):
     return redirect('api/v1/swagger/')
 
-def test(request):
-    req = requests.get('https://github.com/edugieun/Algorithm-Solving/blob/master/Array/0000_Bomber1(D3%2C%20Matrix)/bomber1.py')
-    raw = req.text
-    html = BeautifulSoup(raw, 'html.parser')
-    infos = html.select('table.highlight.tab-size.js-file-line-container')
-    infos = infos[0]
-    context = {
-        'infos': infos,
-    }
-    return render(request, 'api/test.html', context)
+# def test(request):
+#     req = requests.get('https://github.com/edugieun/Algorithm-Solving/blob/master/Array/0000_Bomber1(D3%2C%20Matrix)/bomber1.py')
+#     raw = req.text
+#     html = BeautifulSoup(raw, 'html.parser')
+#     infos = html.select('table.highlight.tab-size.js-file-line-container')
+#     infos = infos[0]
+#     context = {
+#         'infos': infos,
+#     }
+#     return render(request, 'api/test.html', context)

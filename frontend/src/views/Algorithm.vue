@@ -1,18 +1,18 @@
 <template>
     <div>
       <h1>Algorithm Page</h1>
-      <!-- <algo-list></algo-list> -->
+      <algo-list :problems="problems"></algo-list>
     </div>
 </template>
 
 <script>
 import axios from 'axios'
-// import AlgoList from '../components/AlgoList'
+import AlgoList from '../components/AlgoList'
 
 export default {
   name: 'Algorithm',
   components: {
-    // AlgoList,
+    AlgoList,
   },
   data() {
     return {
@@ -23,7 +23,7 @@ export default {
     getproblems() {
       axios.get('http://127.0.0.1:8000/api/v1/problems/')
       .then(res => {
-        console.log(res)
+        this.problems = res.data
       })
       .catch(err => {
         console.log(err)
