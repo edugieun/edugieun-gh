@@ -9,14 +9,10 @@
     </select>
 
     <ol v-if="difficulty === 'all'">
-      <li v-for="problem in problems" :key="problem.id">
-        <div> {{ problem.prob_name }} // {{problem.prob_diff }}</div>
-      </li>
+      <li v-for="problem in problems" :key="problem.id"> {{ problem.prob_name }} // {{problem.prob_diff }}</li>
     </ol>
     <ol v-else>
-      <li v-for="problem in sorted_problems" :key="problem.id">
-        <div> {{ problem.prob_name }} // {{problem.prob_diff }}</div>
-      </li>
+      <li v-for="problem in sorted_problems" :key="problem.id"> {{ problem.prob_name }} // {{problem.prob_diff }} </li>
     </ol>
 
   </div>

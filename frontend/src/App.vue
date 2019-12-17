@@ -2,7 +2,9 @@
   <div id="app">
     <div id="nav">
       <router-link to="/">Home</router-link> |
+      <!-- Algorithm -->
       <router-link to="/algorithm">Algorithm</router-link>
+      <router-link to="/algorithm/:id">detail</router-link>
     </div>
     <router-view/>
   </div>
