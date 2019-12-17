@@ -4,7 +4,7 @@
       <router-link to="/">Home</router-link> |
       <!-- Algorithm -->
       <router-link to="/algorithm">Algorithm</router-link>
-      <router-link to="/algorithm/:id">detail</router-link>
+      <router-link to="/algorithm/detail">detail</router-link>
     </div>
     <router-view/>
   </div>
@@ -12,6 +12,11 @@
 <script>
 export default {
   name: 'App',
+  data: function() {
+    return {
+      selectedProblem: null,
+    }
+  },
 }
 </script>
 <style>

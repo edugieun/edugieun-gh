@@ -2,7 +2,7 @@ import Vue from 'vue'
 import VueRouter from 'vue-router'
 import Home from '../views/Home.vue'
 import Algorithm from '../views/Algorithm'
-import AlgoDetail from '../views/Algorithm'
+import AlgoDetail from '../views/AlgoDetail'
 
 Vue.use(VueRouter)
 
@@ -19,9 +19,10 @@ const routes = [
     component: Algorithm
   },
   {
-    path: '/algorithm',
+    path: '/algorithm/detail',
     name: 'detail',
-    component: AlgoDetail
+    component: AlgoDetail,
+    props: true
   },
 
 ]

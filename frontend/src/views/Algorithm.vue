@@ -1,13 +1,14 @@
 <template>
     <div>
       <h1>Algorithm Page</h1>
-      <algo-list :problems="problems"></algo-list>
+      <algo-list :problems="problems" @problemSelect="onProblemSelect"></algo-list>
     </div>
 </template>
 
 <script>
 import axios from 'axios'
 import AlgoList from '../components/AlgoList'
+import router from '../router'
 
 export default {
   name: 'Algorithm',
@@ -28,6 +29,10 @@ export default {
       .catch(err => {
         console.log(err)
       })
+    },
+    onProblemSelect(problem) {
+      this.$emit('problemSelect', problem)
+      router.push({ path: `/algorithm/problem/${problem.code_url}`})
     }
   },
   mounted() {
