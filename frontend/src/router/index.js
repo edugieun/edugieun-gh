@@ -19,7 +19,7 @@ const routes = [
     component: Algorithm
   },
   {
-    path: '/algorithm/detail',
+    path: '/algorithm/:id',
     name: 'detail',
     component: AlgoDetail,
     props: true

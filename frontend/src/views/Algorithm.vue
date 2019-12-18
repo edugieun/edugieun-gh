@@ -32,7 +32,8 @@ export default {
     },
     onProblemSelect(problem) {
       this.$emit('problemSelect', problem)
-      router.push({ path: `/algorithm/problem/${problem.code_url}`})
+      localStorage.setItem('localproblem', JSON.stringify(problem))
+      router.push({ path: `/algorithm/${problem.id}`})
     }
   },
   mounted() {

@@ -4,7 +4,7 @@
       <router-link to="/">Home</router-link> |
       <!-- Algorithm -->
       <router-link to="/algorithm">Algorithm</router-link>
-      <router-link to="/algorithm/detail">detail</router-link>
+      <router-link to="/algorithm/:id"></router-link>
     </div>
     <router-view/>
   </div>

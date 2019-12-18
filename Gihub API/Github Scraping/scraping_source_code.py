@@ -1,6 +1,6 @@
 import requests
-from bs4 import BeautifulSoup
-from bs4 import SoupStrainer
+# from bs4 import BeautifulSoup
+# from bs4 import SoupStrainer
 
 req = requests.get('https://github.com/edugieun/Algorithm-Solving/blob/master/Array/0000_Bomber1(D3%2C%20Matrix)/bomber1.py')
 raw = req.text
