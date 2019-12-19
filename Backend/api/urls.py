@@ -23,6 +23,7 @@ app_name = 'api'
 urlpatterns = [
   #  path('test/', views.test, name='test'),
    path('problems/', views.problem_list, name='problems'),
+   path('problems/<int:prob_pk>', views.get_source, name='get_source'),
    path('swagger/', schema_view.with_ui('swagger', cache_timeout=0), name='schema-swagger-ui'),
    path('redoc/', schema_view.with_ui('redoc', cache_timeout=0), name='schema-redoc'),
 ]

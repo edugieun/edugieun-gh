@@ -11,7 +11,7 @@ import requests
 
 
 
-@api_view(['GET'])
+@api_view(['GET'])  
 def problem_list(request):
     problems = Algorithm.objects.all()
     serializer = AlgorithmSerializer(problems, many=True)
@@ -20,13 +20,25 @@ def problem_list(request):
 def api_doc(request):
     return redirect('api/v1/swagger/')
 
-# def test(request):
-#     req = requests.get('https://github.com/edugieun/Algorithm-Solving/blob/master/Array/0000_Bomber1(D3%2C%20Matrix)/bomber1.py')
-#     raw = req.text
-#     html = BeautifulSoup(raw, 'html.parser')
-#     infos = html.select('table.highlight.tab-size.js-file-line-container')
-#     infos = infos[0]
-#     context = {
-#         'infos': infos,
-#     }
-#     return render(request, 'api/test.html', context)
+@api_view(['GET'])
+def get_source(request, prob_pk):
+    problem = get_object_or_404(Algorithm, pk=prob_pk)
+    code_url = problem.code_url
+    req = requests.get(code_url)
+    raw = req.text
+    start = 0
+    end = 0
+    for i in range(len(raw)):
+        if raw[i] == '<' and raw[i+1] == 't' and raw[i+2] == 'a' and raw[i+3] == 'b' and raw[i+4] == 'l' and raw[i+5] == 'e':
+            start = i
+        if raw[i] == '<' and raw[i+1] == '/' and raw[i+2] == 't' and raw[i+3] == 'a' and raw[i+4] == 'b' and raw[i+5] == 'l':
+            end = i + 8
+            break
+    table_ele = raw[start:end]
+    print(table_ele)
+    table_ele = "&lt;h1&gt;Hi there!&lt;/h1&gt"
+    print(table_ele)
+    context = {'content': table_ele,}
+    # tmp = '문제번호: ' + str(prob_pk)
+    # return Response(tmp)
+    return render(request, 'api/test.html', context)
