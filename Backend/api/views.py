@@ -35,10 +35,4 @@ def get_source(request, prob_pk):
             end = i + 8
             break
     table_ele = raw[start:end]
-    print(table_ele)
-    table_ele = "&lt;h1&gt;Hi there!&lt;/h1&gt"
-    print(table_ele)
-    context = {'content': table_ele,}
-    # tmp = '문제번호: ' + str(prob_pk)
-    # return Response(tmp)
-    return render(request, 'api/test.html', context)
+    return Response(table_ele)
