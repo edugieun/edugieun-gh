@@ -12,16 +12,16 @@
     data() {
       return {
         selectedProblem: JSON.parse(localStorage.getItem('localproblem')),
-        codeHtml: 'ad'
+        codeHtml: ''
       }
     },
     methods: {
       getSource() {
         // console.log(this.selectedProblem)
         let probNum = this.selectedProblem.id
-        axios.get(`http://127.0.0.1:8000/api/v1/problems/${probNum}`)
+        axios.get(`http://edugieungp.xvjby8f4xg.ap-northeast-2.elasticbeanstalk.com/api/v1/problems/${probNum}`)
         .then(res => {
-          console.log(res)
+          this.codeHtml = res.data
         })
         .catch(err => {
           console.log(err)

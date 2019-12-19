@@ -22,7 +22,7 @@ export default {
   },
   methods: {
     getproblems() {
-      axios.get('http://127.0.0.1:8000/api/v1/problems/')
+      axios.get('http://edugieungp.xvjby8f4xg.ap-northeast-2.elasticbeanstalk.com/api/v1/problems/')
       .then(res => {
         this.problems = res.data
       })
