@@ -17,15 +17,28 @@
     },
     methods: {
       getSource() {
+
+        // 1. CORS 에러로 인해 Django 서버로 데이터를 보내 처리 후 다시 vue로 받는 방법
         // console.log(this.selectedProblem)
-        let probNum = this.selectedProblem.id
-        axios.get(`http://edugieungp.xvjby8f4xg.ap-northeast-2.elasticbeanstalk.com/api/v1/problems/${probNum}`)
+        // let probNum = this.selectedProblem.id
+        // axios.get(`http://edugieungp.xvjby8f4xg.ap-northeast-2.elasticbeanstalk.com/api/v1/problems/${probNum}`)
+        // .then(res => {
+        //   this.codeHtml = res.data
+        // })
+        // .catch(err => {
+        //   console.log(err)
+        // })
+
+        // 2. vue.config.js 파일의 proxy 도메인 일치 후 vue 내부에서 처리하는 방법
+        // let probNum = this.selectedProblem.id
+        axios.get(`https://github.com/edugieun/Algorithm-Solving/blob/master/Array/0000_Bomber1(D3%2C%20Matrix)/bomber1.py`)
         .then(res => {
           this.codeHtml = res.data
         })
         .catch(err => {
           console.log(err)
         })
+
       }
       // getdata: function (data) {
       //   console.log(data)
