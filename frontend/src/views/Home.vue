@@ -12,7 +12,7 @@
     name: 'Home',
     methods: {
       getSource() {
-        axios.get('http://localhost:8080/edugieun/Algorithm-Solving/blob/master/Array/0000_Bomber1(D3%2C%20Matrix)/bomber1.py')
+        axios.get('https://github.com/edugieun/Algorithm-Solving/blob/master/Array/0000_Bomber1(D3%2C%20Matrix)/bomber1.py')
         .then(res => {
           console.log(res.data)
         })
