@@ -1,7 +1,7 @@
 <template>
 
   <div v-html="codeHtml">
-    {{ codeHtml }}
+    <!-- {{ codeHtml }} -->
   </div>
 </template>
 
@@ -31,9 +31,13 @@
 
         // 2. vue.config.js 파일의 proxy 도메인 일치 후 vue 내부에서 처리하는 방법
         // let probNum = this.selectedProblem.id
-        axios.get(`https://github.com/edugieun/Algorithm-Solving/blob/master/Array/0000_Bomber1(D3%2C%20Matrix)/bomber1.py`)
+        axios.get({
+          baseURL: `https://github.com/edugieun/Algorithm-Solving/blob/master/Array/0000_Bomber1(D3%2C%20Matrix)/bomber1.py`,
+          // headers: {'X-Custom-Header': 'foobar'}
+        })
         .then(res => {
-          this.codeHtml = res.data
+          // this.codeHtml = res.data
+          console.log(res)
         })
         .catch(err => {
           console.log(err)
