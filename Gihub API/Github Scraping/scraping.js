@@ -31,17 +31,32 @@
 
 // 2. axios를 이용하여 가져오기
 // const axios = require('axios')
-// axios.get('https://github.com/edugieun/Algorithm-Solving/blob/master/Array/0000_Bomber1(D3%2C%20Matrix)/bomber1.py')
-//   .then(response => {
-//     console.log(response)
-//   })
-//   .catch(err => {
-//     console.log(err)
-//   })
+// axios.get('https://www.naver.com', {
+//   headers: {
+//     "Access-Control-Allow-Origin": "*",
+//   }
+// })
+// .then(response => {
+//   console.log(response)
+// })
+// .catch(err => {
+//   console.log(err)
+// })
 
 
-// 3. ajax를 이용하여 가져오기
-var $ = require('jQuery');
- 
-$("<h1>Include this using jquery</h1>").appendTo("body");
-console.log($("body").html());
+// 3. fetch를 이용하여 가져오기
+
+// const fetch = require('node-fetch');
+// fetch('https://dog.ceo/api/breeds/image/random', {
+//   mode: 'no-cors' // 'cors' by default
+// })
+//     .then(res => res.text())
+//     .then(body => console.log(body));
+
+
+// 4. express 사용
+const express = require('express')
+express().get('https://wanago.io/2018/11/05/cors-cross-origin-resource-sharing/', function(req, res) {
+  console.log(res)
+  console.log(req)
+});
