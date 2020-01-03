@@ -1,6 +1,6 @@
 module.exports = {
   publicPath: '/edugieun-gh/',
   devServer: {
-    proxy: 'https://github.com/',
+    proxy: 'https://github.com/'
   }
 }
