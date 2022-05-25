@@ -19,7 +19,7 @@ lazy-object-proxy==1.4.3
 MarkupSafe==1.1.1
 mccabe==0.6.1
 packaging==19.2
-PyJWT==1.7.1
+PyJWT==2.4.0
 pylint==2.4.4
 pyparsing==2.4.5
 python-decouple==3.3
